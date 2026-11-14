@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shelfDocument>
+  <toolshelf name="volumeheatmap_exporter" label="VolumeHeatmap">
+    <memberTool name="volumeheatmap_exporter_open"/>
+  </toolshelf>
+  <tool name="volumeheatmap_exporter_open" label="Pyro Exporter" icon="MISC_python">
+    <helpText>Sample Pyro fields in an editable SOP branch and export VolumeHeatmap static frames or animations.</helpText>
+    <script scriptType="python"><![CDATA[
+import volumeheatmap_exporter
+volumeheatmap_exporter.show()
+]]></script>
+  </tool>
+</shelfDocument>

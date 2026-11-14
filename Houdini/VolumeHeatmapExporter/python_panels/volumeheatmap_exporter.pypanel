@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pythonPanelDocument>
+  <interface name="volumeheatmap_exporter" label="VolumeHeatmap Exporter" icon="MISC_python" showNetworkNavigationBar="false">
+    <script><![CDATA[
+from volumeheatmap_exporter.panel import ExportPanel
+
+def onCreateInterface():
+    return ExportPanel()
+]]></script>
+    <includeInPaneTabMenu menu_position="900" create_separator="false"/>
+  </interface>
+</pythonPanelDocument>
