@@ -1,5 +1,7 @@
 # Volume Heatmap Tools
 
+**English** | [简体中文](README.zh-CN.md)
+
 A collection of tools for preparing, sampling and exporting data for the Volume Heatmap plugin for Unreal Engine.
 
 Each tool has its own directory, installation instructions and usage guide. This repository contains companion tools; it does not include the Unreal Engine plugin itself.
@@ -27,6 +29,7 @@ VolumeHeatmap_Tools/
 └── Houdini/
     └── VolumeHeatmapExporter/
         ├── README.md
+        ├── README.zh-CN.md
         ├── install.ps1
         ├── python3.11libs/
         ├── python_panels/
